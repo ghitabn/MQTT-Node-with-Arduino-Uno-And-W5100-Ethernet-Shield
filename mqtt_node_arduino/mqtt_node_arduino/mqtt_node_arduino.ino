@@ -26,7 +26,7 @@ References:
               
 Date:         Febryary 18, 2018
 
-Author:       G. Gainaru, http://www.arduinolab.net
+Author:       Gheorghe G., http://www.arduinolab.net
 ------------------------------------------------------------------------------*/
 
 #include <SPI.h>
