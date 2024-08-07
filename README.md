@@ -92,6 +92,8 @@ The logical diagram of the demo setup is depicted in the image below.
 
  ## 8. Code – Arduino MQTT node
 
+ /mqtt_node_arduino/mqtt_node_arduino/mqtt_node_arduino.ino
+
 ## 9. Demo
 
 Youtube link:  [MQTT-Node-with-Arduino-Uno-And-W5100-Ethernet-Shield](https://www.youtube.com/watch?v=MQVbPG708Ik&lc=Ugzo6zfxNHqnAkhTXU54AaABAg.A2hoFgFLh2jA3QeNldDyGf)
