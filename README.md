@@ -10,7 +10,7 @@ According to MQTT 3.1.1 specification: “MQTT is a Client Server publish/subscr
 
 The MQTT (MQ Telemetry Transmission) protocol runs over TCP/IP (and/or other connection-oriented network protocols) in order to transfer messages between interconnected devices. A such message consists of a topic and a payload. A device (node) can publish messages and/or subscribe to messages to/from a MTTQ broker (server). The MTTQ broker receives published messages , keep track of the subscribers and send the proper message to the right device. The principle is depicted in the image below.
 
-![MQTT Pub Sub!](/images/mqtt_pub_sub.jpg "mqtt_pub_sub")
+![MQTT Pub Sub!](/res/images/mqtt_pub_sub.jpg "mqtt_pub_sub")
 
 Note. Any device could assume multiple roles (i.e. publisher and/or subscriber to multiple topics).
 
@@ -29,7 +29,7 @@ On Windows, the server could be launched automatically (as a service) or manuall
     cd "\Program Files (x86)\mosquitto"
     mosquitto.exe -v
 
-![Server launch!](/images/srv_launch.jpg "srv_launch")
+![Server launch!](/res/images/srv_launch.jpg "srv_launch")
 
 ### 3.2. Testing Mosquitto server
 With the server running in verbose mode, open two more command prompt windows – one for the publisher, one for the subscriber.
@@ -43,7 +43,7 @@ In the subscriber window, launch a subscriber node to “test” topic:
     -i (identity flag) identifies the client; optional, if missing Mosquitto will auto generate one
     -t (topic flag) indicates the topic name.
 
-![Sub launch!](/images/sub_launch.jpg "sub_launch")
+![Sub launch!](/res/images/sub_launch.jpg "sub_launch")
 
 The server window shows that a client named “cmd_sub” is listening to the “test” topic.
 
@@ -57,7 +57,7 @@ In the publisher window, launch a publisher node to “test” topic and publish
     -t (topic flag) indicates the topic name;
     -m (message flag) indicates the message to be published.
 
-![Pub launch!](/images/pub_launch_msg.jpg "pub_launch_msg")
+![Pub launch!](/res/images/pub_launch_msg.jpg "pub_launch_msg")
 
 The server window shows that a message has been received from the publisher  “cmd_pub” for the “test” topic; the published message is visible in the subscriber window.
 
@@ -72,7 +72,7 @@ The setup consists of the following components:
 
 The logical diagram of the demo setup is depicted in the image below.
 
-![MQTT Pub Sub Arduino!](/images/mqtt_pub_sub_ard.jpg "mqtt_pub_sub_ard")
+![MQTT Pub Sub Arduino!](/res/images/mqtt_pub_sub_ard.jpg "mqtt_pub_sub_ard")
 
 ## 5. Parts – Arduino MQTT node
 * 1 x Arduino Uno R3;
@@ -84,15 +84,15 @@ The logical diagram of the demo setup is depicted in the image below.
 
 ## 6. Schematics – Arduino MQTT node
 
-![MQTT Node Arduino Schematics!](/mqtt_node_arduino/diagrams/mqtt_node_arduino_schem.jpg "mmqtt_node_arduino_schem")
+![MQTT Node Arduino Schematics!](/res/diagrams/mqtt_node_arduino_schem.jpg "mmqtt_node_arduino_schem")
 
 ## 7. Assembly (breadboard) – Arduino MQTT node
 
-![MQTT Node Arduino Breadboard!](/mqtt_node_arduino/diagrams/mqtt_node_arduino_bboard.jpg "mmqtt_node_arduino_bboard")
+![MQTT Node Arduino Breadboard!](/res/diagrams/mqtt_node_arduino_bboard.jpg "mmqtt_node_arduino_bboard")
 
  ## 8. Code – Arduino MQTT node
 
- /mqtt_node_arduino/mqtt_node_arduino/mqtt_node_arduino.ino
+ /mqtt_node_arduino/mqtt_node_arduino.ino
 
 ## 9. Demo
 
