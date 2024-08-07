@@ -57,7 +57,7 @@ In the publisher window, launch a publisher node to “test” topic and publish
     -t (topic flag) indicates the topic name;
     -m (message flag) indicates the message to be published.
 
-![Pub launch!](/images/pub_launch.jpg "pub_launch")
+![Pub launch!](/images/pub_launch_msg.jpg "pub_launch_msg")
 
 The server window shows that a message has been received from the publisher  “cmd_pub” for the “test” topic; the published message is visible in the subscriber window.
 
@@ -94,7 +94,7 @@ The logical diagram of the demo setup is depicted in the image below.
 
 ## 9. Demo
 
-Ref. https://www.youtube.com/watch?v=MQVbPG708Ik&lc=Ugzo6zfxNHqnAkhTXU54AaABAg.A2hoFgFLh2jA3QeNldDyGf
+Youtube link:  [MQTT-Node-with-Arduino-Uno-And-W5100-Ethernet-Shield](https://www.youtube.com/watch?v=MQVbPG708Ik&lc=Ugzo6zfxNHqnAkhTXU54AaABAg.A2hoFgFLh2jA3QeNldDyGf)
 
 ## 10. Additional ressources
 
